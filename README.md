@@ -1,4 +1,4 @@
- Reader Writer Problem
+ Readers Writers Problem
 
 Here one has a system of r readers and w writers that all access a common database
 (or some other resource). A reader may share the resource with an unlimited number
