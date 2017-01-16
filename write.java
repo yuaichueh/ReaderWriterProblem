@@ -1,5 +1,32 @@
+import java.io.BufferedWriter;
+import java.io.FileWriter;
 
-    class Writer implements Runnable
+class Writer implements Runnable   
+   {
+     
+       public Writer(String w) {
+ 
+      }
+   
+       public void run() {
+         while (true){
+        	 
+           for (int i=0;i<4;i++)
+            {
+            	for(int j=0;j<1000000;j++);
+            	  System.out.println(Math.random()+ " is written into the file.");
+            	 
+            }
+          
+            SleepUtilities.nap();
+         
+            
+         }
+      }
+     
+   }
+    
+/*    class Writer implements Runnable   
    {
      
       private int writerNum;
@@ -13,16 +40,12 @@
          while (true){
             SleepUtilities.nap();
          
-            System.out.println("writer " + writerNum + " wants to write.");
+            System.out.println("writer " + writerNum + " is writing.");
            
-         
-         // you have access to write to the database
-         // write for awhile ...
             SleepUtilities.nap();
          
             
          }
       }
-   
-   
-   }
+     
+   }*/

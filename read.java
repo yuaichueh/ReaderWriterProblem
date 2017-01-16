@@ -1,5 +1,5 @@
 
-    class Reader implements Runnable
+    class Reader implements Runnable 
    {
    
      
@@ -14,11 +14,8 @@
          while (true) {
             SleepUtilities.nap();
          
-            System.out.println("reader " + readerNum + " wants to read.");
+            System.out.println("reader " + readerNum + " is reading.");
             
-         
-         // you have access to read from the database
-         // let's read for awhile .....
             SleepUtilities.nap();
          
          
