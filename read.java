@@ -1,5 +1,4 @@
-
-    class Reader implements Runnable 
+ class Reader implements Runnable 
    {
    
      
